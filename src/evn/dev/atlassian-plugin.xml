@@ -1,0 +1,20 @@
+<atlassian-plugin name="event Ding Listener" key="jira.event.listeners"
+	plugins-version="2">
+	<plugin-info>
+		<description>A plug-in for the listener.</description>
+		<vendor name="jetair" url="http://www.jetair.com.cn" />
+		<version>1.0</version>
+	</plugin-info>
+
+	<component key="event-ding-listener"
+		class="com.atlassian.jira.event.mylisteners.DingListener">
+		<description>A plug-in for the listener.</description>
+		<interface>com.atlassian.jira.event.mylisteners.DingListener
+		</interface>
+	</component>
+
+	<!-- <listener name="My listener" class="com.atlassian.jira.event.mylisteners.DingListener" 
+		key="My_Listener"> <description>Provides an audit log for each event within 
+		Confluence.</description> </listener> -->
+
+</atlassian-plugin>

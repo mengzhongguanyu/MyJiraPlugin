@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceDoc>
+	<classDocs>
+		<classDoc>
+			<className>com.atlassian.jira.event.mylisteners.DingListener
+			</className>
+			<commentText><![CDATA[A REST resource that supports event consumption and the publication of desired events.
+
+ Code for capabilities is based on nav-links capability code.]]></commentText>
+			<methodDocs>
+				<methodDoc>
+					<methodName>issueCreated</methodName>
+					<commentText><![CDATA[]]>
+					</commentText>
+					<responseDoc />
+				</methodDoc>
+				<methodDoc>
+					<methodName>issueGenericEvent</methodName>
+					<commentText><![CDATA[]]>
+					</commentText>
+					<responseDoc />
+				</methodDoc>
+				<methodDoc>
+					<methodName>issueAssigned</methodName>
+					<commentText><![CDATA[]]>
+					</commentText>
+					<responseDoc />
+				</methodDoc>
+			</methodDocs>
+		</classDoc>
+	</classDocs>
+	<classDocs>
+		<classDoc>
+			<className>com.atlassian.jira.event.mylisteners.SayHellow
+			</className>
+			<commentText><![CDATA[A REST resource that supports event consumption and the publication of desired events.
+
+ Code for capabilities is based on nav-links capability code.]]></commentText>
+			<methodDocs>
+				<methodDoc>
+					<methodName>say</methodName>
+					<commentText><![CDATA[]]>
+					</commentText>
+					<responseDoc />
+				</methodDoc>
+			</methodDocs>
+		</classDoc>
+	</classDocs>
+</resourceDoc>

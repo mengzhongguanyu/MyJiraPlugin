@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: norman91
+Build-Jdk: 1.7.0_65
+Atlassian-Build-Date: 2017-02-10T09:39:03+1000
+Atlassian-Plugin-Key: jira.event.listeners
+Bnd-LastModified: 1406590743111
+Bundle-ClassPath: .,META-INF/lib/atlassian-spring-scanner-annotation-1
+ .2.2.jar,META-INF/lib/atlassian-spring-scanner-runtime-1.2.2.jar,META-INF/lib/commons-httpclient-3.1.jar,
+ META-INF/lib/ezmorph-1.0.6.jar, META-INF/lib/json-lib-2.4-jdk15.jar
+Bundle-Description: 创建问题向经办人发钉
+Bundle-DocURL: http://www.atlassian.com/
+Bundle-License: https://www.atlassian.com/end-user-agreement/
+Bundle-ManifestVersion: 2
+Bundle-Name: Provides hello services.
+Bundle-SymbolicName: jira.event.listeners
+Bundle-Vendor: Atlassian
+Bundle-Version: 1.0.2
+Import-Package: com.atlassian.jira.event,com.atlassian.jira.event.ding,com.atlassian.jira.event.issue,com.atlassian.jira.event.issue,com.atlassian.jira.event.user,java.util.TimerTask
+Originally-Created-By: Apache Maven Bundle Plugin
+Spring-Context: *
+Tool: Bnd-1.50.0
